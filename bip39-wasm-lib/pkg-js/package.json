@@ -1,0 +1,15 @@
+{
+  "name": "bip39-wasm-lib",
+  "collaborators": [
+    "thunderbiscuit <thunderB@protonmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "bip39_wasm_lib_bg.wasm",
+    "bip39_wasm_lib.js",
+    "bip39_wasm_lib.d.ts"
+  ],
+  "module": "bip39_wasm_lib.js",
+  "types": "bip39_wasm_lib.d.ts",
+  "sideEffects": false
+}
