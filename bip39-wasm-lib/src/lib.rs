@@ -25,3 +25,10 @@ pub fn generate_mnemonic() {
     let mnemonic_phrase = Mnemonic::from_entropy(&entropy).expect("Cannot create mnemonic from bip39 crate");
     alert(&mnemonic_phrase.to_string());
 }
+
+#[wasm_bindgen]
+pub fn generate_mnemonic_node() -> std::string::String {
+    let entropy = [42u8; 16];
+    let mnemonic_phrase = Mnemonic::from_entropy(&entropy).expect("Cannot create mnemonic from bip39 crate");
+    return mnemonic_phrase.to_string();
+}

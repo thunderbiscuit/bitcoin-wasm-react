@@ -42,3 +42,10 @@ yarn add --dev react-app-rewired wasm-loader
 # note that the scripts have been changed to "react-app-rewired start"
 yarn start
 ```
+
+#### Part 3: NodeJS
+
+```sh
+cd bip39-wasm-lib
+wasm-pack build --target nodejs --out-dir pkg-node
+```
