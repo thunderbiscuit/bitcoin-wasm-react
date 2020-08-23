@@ -16,7 +16,7 @@ We use it to generate a BIP39 mnemonic phrase (12 words).
 <br />
 
 ## Integrating the library with create-react-app
-I drew heavily from this [fantastic blog post](https://prestonrichey.com/blog/react-rust-wasm/) by Preston Richey for the starting setup and integration of WASM libraries with React apps.
+I drew heavily from this [fantastic blog post](https://prestonrichey.com/blog/react-rust-wasm/) by Preston Richey for the starting setup and integration of WASM libraries with React apps. The final result is a React app with a single button that generates a BIP39 12-words seedphrase.
 
 <br />
 <div align="center">
