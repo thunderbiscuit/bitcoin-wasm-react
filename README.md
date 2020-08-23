@@ -1,9 +1,5 @@
 # Readme
 
-<center>
-  <img src="./figure1.png" width="400">
-</center>
-
 This repo explores using WASM as the target compilation for Rust libraries so they can be used as Javascript libraries or Node modules. It consists of 3 directories:
 
 1. The Rust library we use to generate the WASM library
@@ -22,6 +18,10 @@ We use it to generate a BIP39 mnemonic phrase (12 words).
 ## Integrating the library with create-react-app
 I drew heavily from this [fantastic blog post](https://prestonrichey.com/blog/react-rust-wasm/) by Preston Richey for the starting setup and integration of WASM libraries with React apps.
 
+<br />
+<div align="center">
+  <img src="./figure1.png" width="400">
+</div>
 <br />
 
 ## Steps
