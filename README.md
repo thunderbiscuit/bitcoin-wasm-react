@@ -20,7 +20,7 @@ I drew heavily from this [fantastic blog post](https://prestonrichey.com/blog/re
 
 <br />
 <div align="center">
-  <img src="./figure1.png" width="400">
+  <img src="./figure1.png" width="600">
 </div>
 <br />
 
