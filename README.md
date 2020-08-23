@@ -1,18 +1,18 @@
 # Readme
 
-Three directories: 
-1. The Rust library we use to generate the WASM and JS module
-2. The React app that uses the WASM library
-3. A NodeJS script that uses the WASM library
+This repo explores using WASM as the target compilation for Rust libraries so they can be used as Javascript libraries or ode modules. It consists of 3 directories:
 
-## The WASM library
-The WASM library is just a thin wrapper around a rust-bitcoin library called `bip39`.
+1. The Rust library we use to generate the WASM library
+2. The React app that uses the WASM library
+3. A few example NodeJS scripts that use the WASM library
+
+## The library
+The WASM library is one-function thin wrapper around a rust-bitcoin library called [`bip39`](https://github.com/rust-bitcoin/rust-bip39).
 
 We use it to generate a BIP39 mnemonic phrase (12 words).
 
 ## Integrating the library with create-react-app
-I drew heavily from this [fantastic blog post] by Preston Richey for the starting setup and integration of WASM libraries with React apps.
-
+I drew heavily from this [fantastic blog post](https://prestonrichey.com/blog/react-rust-wasm/) by Preston Richey for the starting setup and integration of WASM libraries with React apps.
 
 ## Steps
 
