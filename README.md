@@ -1,5 +1,9 @@
 # Readme
 
+<center>
+  <img src="./figure1.png" width="400">
+</center>
+
 This repo explores using WASM as the target compilation for Rust libraries so they can be used as Javascript libraries or Node modules. It consists of 3 directories:
 
 1. The Rust library we use to generate the WASM library
